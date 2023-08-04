@@ -1,0 +1,155 @@
+body {
+    background: #f1f5ed;
+    padding: 0;
+    margin: 0;
+    /* background: #efe9d3; */
+}
+
+#container {
+    color: #083957;
+    background-color: #f1f5ed;
+    /* border: dashed #083957 3px; */
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    /* border: solid red 2px; */
+    height:300px;
+    margin-top: -70px;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+
+}
+#logo {
+    width: 300px;
+}
+
+#title {
+    font-size: 40px;
+    font-weight: 100;
+    color: #083957
+
+}
+
+.btn {
+    background-color: #efe9d3;
+    color: #083957;
+    font-size: 18px;
+    font-weight: 100;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+.btn:hover {
+    background-color: #083957;
+    color:#efe9d3;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: dashed #083957 2px; */
+}
+
+
+
+#text {
+    color: #083957;
+    font-size: 22px;
+    font-weight: 100;
+    padding: 30px;
+    display: grid;
+    grid-template-rows: auto 35px 35px;
+    justify-items: center;
+
+    /* border: #083957 dashed 3px; */
+}
+
+#content {
+    display: grid;
+    grid-template-columns: minmax(auto, 950px);
+
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+}
+#stars {
+    display: flex;
+    justify-content: center;
+    color: #edbd0f;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#menu {
+    width: 700px;
+    padding: 25px;
+}
+#menu-container {
+
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: minmax(auto, 950px);
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #083957;
+}
+
+#wrapper1 {
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 25px;
+    margin-bottom: -5px;
+    background-color: #083957;
+    color: #efe9d3;
+    padding: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+/* #efe9d3 */
